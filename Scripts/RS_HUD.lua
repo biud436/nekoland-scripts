@@ -3,19 +3,15 @@
 -- # Author : biud436
 -- # Script Calls (Client only) : 
 -- 
--- HUD의 X좌표를 설정합니다 :
+-- In the script, You can change x and y coordinates, as follows.
 --  HUD.setX(n)
--- 
--- HUD의 Y좌표를 설정합니다 :
 --  HUD.setY(n)
 -- 
--- HUD를 ON 또는 OFF 합니다.
+-- This function allows you to change the 'visible' property of HUD.
 --  HUD.setVisible(true)
 --  HUD.setVisible(false)
---
--- HUD ON/OFF를 토글합니다.
 --  HUD.toggleVisible()
--- 
+--
 -- # Version Log
 -- 2019.04.20 (v1.0.0) - First Release.
 -- 2019.04.21 (v1.0.1) - 공격키 및 패드가 클릭되지 않는 현상 수정.
