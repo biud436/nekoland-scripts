@@ -130,6 +130,7 @@ local function HUDLayerImpl(scaleX, scaleY)
     function self.create()
         
         Client.ShowTopUI(false) -- 메인 패널 숨김 처리
+        ScreenUI.buffPanelVisible = false
         
         self.prepareLayer()     -- 패널 준비
         self.prepareImage()     -- 이미지 생성
